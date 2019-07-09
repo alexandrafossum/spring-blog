@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="partials/head :: head('Homepage')"></head>
+
+<body>
+<nav th:replace="partials/navbar :: navbar"></nav>
+
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <p>"Everything has been figured out, except how to live." <br/> ― Jean-Paul Sartre</p>
+        </div>
+        <div class="carousel-item">
+            <p>"Good books tell the truth, even when they're about things that never have been and never will be. They're truthful in a different way." <br/> ― Stanislaw Lem</p>
+        </div>
+        <div class="carousel-item">
+            <p>"A well-informed mind is the best security against the contagion of folly and vice. The vacant mind is ever on the watch for relief, and ready to plunge into error, to escape from the languor of idleness. Store it with ideas, teach it the pleasure of thinking; and the temptations of the world without, will be counteracted by the gratifications derived from the world within." <br/> ― Ann Radcliffe</p>
+        </div>
+        <div class="carousel-item">
+            <p></p>
+        </div>
+        <div class="carousel-item">
+        <p></p>
+    </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<th:block th:include="partials/scripts :: scripts" />
+
+</body>
+</html>

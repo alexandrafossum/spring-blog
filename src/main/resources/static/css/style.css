@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Open+Sans|Pacifico|Roboto&display=swap');
+
+/*
+font-family: 'Josefin Slab', serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+body {
+    background-image: url(../img/pipes.png);
+}
+
+nav {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand {
+    font-family: 'Pacifico', cursive;
+}
+
+
+/*HOMEPAGE*/
+
+.carousel-inner p {
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(33, 135, 120, .35);
+    padding: 90px;
+    margin-top: 10px;
+}
+
+
+/*REGISTRATION*/
+
+.registration-title {
+    text-align: center;
+    font-family: 'Pacifico', sans-serif;
+    margin-top: 50px;
+}
+
+.registration-form {
+    background-color: rgba(249, 146, 51, .60);
+    border-radius: 10px;
+    padding: 45px;
+    margin-top: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-family: 'Josefin Slab', serif;
+
+    -webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+    -moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+    box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+}
+
+.registration-btn {
+    background-color: transparent;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    font-family: 'Josefin Slab', serif;
+}
+
+.registration-btn:hover {
+    background-color: #F99233;
+    border-color: #FFFFFF;
+}
+
+.text-border {
+    border-color: #FFFFFF;
+}
+
+
+/*LOGIN*/
+
+.login-form {
+    background-color: rgba(249, 146, 51, .60);
+    border-radius: 10px;
+    padding: 45px;
+    margin-top: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+    font-family: 'Josefin Slab', serif;
+
+    -webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+    -moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+    box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+}
+
+.login-title {
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Pacifico', sans-serif;
+}
+
+.login-btn {
+    background-color: transparent;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+    font-family: 'Josefin Slab', serif;
+}
+
+.login-btn:hover {
+    background-color: #F99233;
+    border-color: #FFFFFF;
+}
+
+.alert {
+    text-align: center;
+    background-color: rgba(195, 53, 40, .5);
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+    -webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+    -moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+    box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+}
+
+
+/*VIEW POSTS*/
+
+.post-index {
+    margin-top: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.post-title {
+    background-color: rgba(208, 232, 159, .50);
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.post-index-title {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.btn-warning {
+    width: 25%;
+    background-color: transparent;
+    border-color: #22BF76;
+    color: #22BF76;
+    font-family: 'Josefin Slab', serif;
+}
+
+.btn-warning:hover {
+    background-color: #22BF76;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    font-family: 'Josefin Slab', serif;
+}
+
+
+/*EDIT POSTS*/
+
+.submit-edit-btn {
+    width: 25%;
+    background-color: transparent;
+    border-color: #218778;
+    color: #218778;
+    font-family: 'Josefin Slab', serif;
+}
+
+.delete-btn {
+    width: 25%;
+    background-color: #218778;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    font-family: 'Josefin Slab', serif;
+}
+
+.edit-post-form {
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: #218778;
+    color: #FFFFFF;
+    margin: auto;
+    padding: 10px;
+}

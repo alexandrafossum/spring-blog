@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Results</h1>
+
+<h3>User guess: <span th:remove="tag" th:text="${guess}"></span></h3>
+<h3>Roll: <span th:remove="tag" th:text="${roll}"></span></h3>
+<h4>Outcome:</h4>
+<p th:remove="tag" th:if="${result}" th:text="${Winner, winner, chicken dinner!}"></p>
+<p th:remove="tag" th:if="${!result}" th:text="${Loser, loser, lonely boozer!}"></p>
+
+</body>
+</html>

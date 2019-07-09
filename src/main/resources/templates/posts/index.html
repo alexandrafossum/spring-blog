@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="partials/head :: head('View Posts')">
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous" />
+</head>
+<body>
+
+<nav th:replace="partials/navbar :: navbar"></nav>
+
+<header th:replace="partials/header :: header('')"></header>
+
+<main class="container">
+
+    <h2 class="post-index-title">Posts</h2>
+
+    <th:block th:each="post : ${posts}">
+        <div class="card p-1 post-index">
+
+            <h3 class="post-title" th:text="${#strings.capitalizeWords(post.title)}">Post</h3>
+            <p th:text="${post.body}">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus accusantium alias aliquid architecto eligendi, excepturi explicabo libero maiores non numquam quae recusandae, sapiente suscipit, unde vero voluptatibus! Officiis, temporibus.</p>
+            <a th:href="@{'/posts/' + ${post.id} + '/edit'}" class="btn btn-warning">Edit</a>
+
+        </div>
+    </th:block>
+</main>
+
+<th:block th:include="partials/master :: footer" />
+<th:block th:include="partials/scripts :: scripts" />
+
+</body>
+</html>

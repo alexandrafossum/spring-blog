@@ -49,9 +49,9 @@ nav {
     margin-right: 250px;
     font-family: 'Josefin Slab', serif;
 
-    -webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);
-    -moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.52);
-    box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+    -webkit-box-shadow: 0 10px 20px 0 rgba(50, 50, 50, 0.52);
+    -moz-box-shadow:    0 10px 20px 0 rgba(50, 50, 50, 0.52);
+    box-shadow:         0 10px 20px 0 rgba(50, 50, 50, 0.52);
 }
 
 .registration-btn {
@@ -82,9 +82,9 @@ nav {
     margin-right: 250px;
     font-family: 'Josefin Slab', serif;
 
-    -webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);
-    -moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.52);
-    box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+    -webkit-box-shadow: 0 10px 20px 0 rgba(50, 50, 50, 0.52);
+    -moz-box-shadow:    0 10px 20px 0 rgba(50, 50, 50, 0.52);
+    box-shadow:         0 10px 20px 0 rgba(50, 50, 50, 0.52);
 }
 
 .login-title {
@@ -107,16 +107,31 @@ nav {
 
 .alert {
     text-align: center;
-    background-color: rgba(195, 53, 40, .5);
+    background-color: rgba(195, 53, 40, .50);
     color: #FFFFFF;
     border-radius: 10px;
     margin-top: 25px;
     margin-left: 250px;
     margin-right: 250px;
 
-    -webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);
-    -moz-box-shadow:    0px 10px 20px 0px rgba(50, 50, 50, 0.52);
-    box-shadow:         0px 10px 20px 0px rgba(50, 50, 50, 0.52);
+    -webkit-box-shadow: 0 10px 20px 0 rgba(50, 50, 50, 0.52);
+    -moz-box-shadow:    0 10px 20px 0 rgba(50, 50, 50, 0.52);
+    box-shadow:         0 10px 20px 0 rgba(50, 50, 50, 0.52);
+}
+
+.logout-alert {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(119, 159, 161, .50);
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+    -webkit-box-shadow: 0 10px 20px 0 rgba(50, 50, 50, 0.52);
+    -moz-box-shadow:    0 10px 20px 0 rgba(50, 50, 50, 0.52);
+    box-shadow:         0 10px 20px 0 rgba(50, 50, 50, 0.52);
 }
 
 
@@ -179,6 +194,9 @@ nav {
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+
+/*FOOTER*/
 
 footer {
     background-color: #218778;

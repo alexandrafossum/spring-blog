@@ -11,7 +11,7 @@
     <p class="alert">Invalid Username and/or Password.</p>
 </div>
 <div th:if="${param.logout}">
-    <p class="alert">You have been logged out.</p>
+    <p class="logout-alert">You have been logged out. <br/> Log in to continue creating.</p>
 </div>
 
 <form class="login-form" th:action="@{/login}" method="POST">

@@ -34,12 +34,6 @@ public class User {
         this.posts = copy.posts;
     }
 
-//    public User(String email, String username, String password) {
-////        this.email = email;
-////        this.username = username;
-////        this.password = password;
-////    }
-
     public String getUsername() {
         return username;
     }
